@@ -1,3 +1,4 @@
+import aws from 'aws-sdk';
 import { createTransport } from 'nodemailer';
 
 import { ResendTransport } from '@documenso/nodemailer-resend';
@@ -40,6 +41,27 @@ const getTransport = () => {
         pass: process.env.NEXT_PRIVATE_SMTP_APIKEY ?? '',
       },
     });
+  }
+
+  if (transport === 'ses') {
+    if (
+      !process.env.NEXT_PRIVATE_AWS_ACCESS_KEY_ID ||
+      !process.env.NEXT_PRIVATE_AWS_SECRET_ACCESS_KEY
+    ) {
+      throw new Error('SES transport requires AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY');
+    }
+
+    const ses = new aws.SES({
+      accessKeyId: process.env.NEXT_PRIVATE_AWS_ACCESS_KEY_ID,
+      secretAccessKey: process.env.NEXT_PRIVATE_AWS_SECRET_ACCESS_KEY,
+      region: process.env.AWS_REGION || 'us-east-1', // Set your preferred region
+    });
+
+    const transport = createTransport({
+      SES: { ses, aws },
+    });
+
+    return transport;
   }
 
   return createTransport({

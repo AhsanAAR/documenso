@@ -41,7 +41,6 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@lingui/cli": "^4.11.1",
     "@trigger.dev/cli": "^2.3.18",
@@ -65,6 +64,7 @@
     "@documenso/pdf-sign": "^0.1.0",
     "@lingui/core": "^4.11.1",
     "@lingui/macro": "^4.11.2",
+    "aws-sdk": "^2.1684.0",
     "inngest-cli": "^0.29.1",
     "next-runtime-env": "^3.2.0",
     "react": "18.2.0"
