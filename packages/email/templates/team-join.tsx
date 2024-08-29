@@ -22,7 +22,7 @@ export const TeamJoinEmailTemplate = ({
   teamName = 'Team Name',
   teamUrl = 'demo',
 }: TeamJoinEmailProps) => {
-  const previewText = 'A team member has joined a team on Documenso';
+  const previewText = 'A team member has joined a team on Onboard';
 
   return (
     <Html>
@@ -56,7 +56,7 @@ export const TeamJoinEmailTemplate = ({
 
               <Section className="p-2 text-slate-500">
                 <Text className="text-center text-lg font-medium text-black">
-                  {memberName || memberEmail} joined the team {teamName} on Documenso
+                  {memberName || memberEmail} joined the team {teamName} on Onboard
                 </Text>
 
                 <Text className="my-1 text-center text-base">

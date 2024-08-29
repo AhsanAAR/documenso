@@ -59,7 +59,7 @@ export const DocumentCreatedFromDirectTemplateEmailTemplate = ({
               <Section className="p-2">
                 <Img
                   src={getAssetUrl('/static/logo.png')}
-                  alt="Documenso Logo"
+                  alt="Onboard Logo"
                   className="mb-4 h-6"
                 />
 

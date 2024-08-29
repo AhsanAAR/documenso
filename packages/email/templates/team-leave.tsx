@@ -22,7 +22,7 @@ export const TeamLeaveEmailTemplate = ({
   teamName = 'Team Name',
   teamUrl = 'demo',
 }: TeamLeaveEmailProps) => {
-  const previewText = 'A team member has left a team on Documenso';
+  const previewText = 'A team member has left a team on Onboard';
 
   return (
     <Html>
@@ -56,7 +56,7 @@ export const TeamLeaveEmailTemplate = ({
 
               <Section className="p-2 text-slate-500">
                 <Text className="text-center text-lg font-medium text-black">
-                  {memberName || memberEmail} left the team {teamName} on Documenso
+                  {memberName || memberEmail} left the team {teamName} on Onboard
                 </Text>
 
                 <Text className="my-1 text-center text-base">
