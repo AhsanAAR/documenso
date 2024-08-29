@@ -15,7 +15,7 @@ export default function SignatureDisclosure() {
 
         <h2>Welcome</h2>
         <p>
-          Thank you for using Documenso to perform your electronic document signing. The purpose of
+          Thank you for using Onboard to perform your electronic document signing. The purpose of
           this disclosure is to inform you about the process, legality, and your rights regarding
           the use of electronic signatures on our platform. By opting to use an electronic
           signature, you are agreeing to the terms and conditions outlined below.
@@ -89,8 +89,8 @@ export default function SignatureDisclosure() {
 
         <h2>Acknowledgment</h2>
         <p>
-          By proceeding to use the electronic signature service provided by Documenso, you affirm
-          that you have read and understood this disclosure. You agree to all terms and conditions
+          By proceeding to use the electronic signature service provided by Onboard, you affirm that
+          you have read and understood this disclosure. You agree to all terms and conditions
           related to the use of electronic signatures and electronic transactions as outlined
           herein.
         </p>

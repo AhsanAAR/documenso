@@ -55,7 +55,7 @@ export const ProfileHeader = ({ user, teams = [] }: ProfileHeaderProps) => {
 
           <Image
             src={LogoIcon}
-            alt="Documenso Logo"
+            alt="Onboard Logo"
             width={48}
             height={48}
             className="h-10 w-auto dark:invert sm:hidden"

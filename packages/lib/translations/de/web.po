@@ -155,12 +155,21 @@ msgid "A request to transfer the ownership of this team has been sent to <0>{0} 
 msgstr ""
 
 #: apps/web/src/components/(dashboard)/settings/webhooks/create-webhook-dialog.tsx:228
-msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso"
+#~ msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso"
+#~ msgstr ""
+
+#: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:196
+#: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:198
+#~ msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
+#~ msgstr ""
+
+#: apps/web/src/components/(dashboard)/settings/webhooks/create-webhook-dialog.tsx:228
+msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Onboard"
 msgstr ""
 
 #: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:196
 #: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:198
-msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Documenso."
+msgid "A secret that will be sent to your URL so you can verify that the request has been sent by Onboard."
 msgstr ""
 
 #: apps/web/src/components/forms/public-profile-form.tsx:198
@@ -827,7 +836,7 @@ msgstr ""
 msgid "Confirm by typing: <0>{deleteMessage}</0>"
 msgstr ""
 
-#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:157
+#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:156
 msgid "Confirm Deletion"
 msgstr ""
 
@@ -1088,7 +1097,7 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:157
+#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:156
 msgid "Deleting account..."
 msgstr ""
 
@@ -1173,8 +1182,8 @@ msgid "Do you want to duplicate this template?"
 msgstr ""
 
 #: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:122
-msgid "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
-msgstr ""
+#~ msgid "Documenso will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+#~ msgstr ""
 
 #: apps/web/src/app/(dashboard)/documents/[id]/logs/document-logs-page-view.tsx:122
 msgid "Document"
@@ -2077,6 +2086,10 @@ msgstr ""
 msgid "On this page, you can edit the webhook and its settings."
 msgstr ""
 
+#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:122
+msgid "Onboard will delete <0>all of your documents</0>, along with all of your completed documents, signatures, and all other resources belonging to your Account."
+msgstr ""
+
 #: apps/web/src/app/(dashboard)/documents/delete-document-dialog.tsx:134
 msgid "Once confirmed, the following will occur:"
 msgstr ""
@@ -2292,7 +2305,7 @@ msgstr ""
 msgid "Please try again later."
 msgstr ""
 
-#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:134
+#: apps/web/src/app/(dashboard)/settings/profile/delete-account-dialog.tsx:133
 msgid "Please type <0>{0}</0> to confirm."
 msgstr ""
 
@@ -3188,7 +3201,13 @@ msgstr ""
 #: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:124
 #: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:128
 #: apps/web/src/components/(dashboard)/settings/webhooks/create-webhook-dialog.tsx:152
-msgid "The URL for Documenso to send webhook events to."
+#~ msgid "The URL for Documenso to send webhook events to."
+#~ msgstr ""
+
+#: apps/web/src/app/(dashboard)/settings/webhooks/[id]/page.tsx:124
+#: apps/web/src/app/(teams)/t/[teamUrl]/settings/webhooks/[id]/page.tsx:128
+#: apps/web/src/components/(dashboard)/settings/webhooks/create-webhook-dialog.tsx:152
+msgid "The URL for Onboard to send webhook events to."
 msgstr ""
 
 #: apps/web/src/components/(dashboard)/settings/webhooks/delete-webhook-dialog.tsx:79
@@ -3762,7 +3781,11 @@ msgid "Waiting for others to sign"
 msgstr ""
 
 #: apps/web/src/app/(signing)/sign/[token]/no-longer-available.tsx:61
-msgid "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
+#~ msgid "Want to send slick signing links like this one? <0>Check out Documenso.</0>"
+#~ msgstr ""
+
+#: apps/web/src/app/(signing)/sign/[token]/no-longer-available.tsx:61
+msgid "Want to send slick signing links like this one? <0>Check out Onboard.</0>"
 msgstr ""
 
 #: apps/web/src/app/(profile)/profile-header.tsx:68
@@ -4008,7 +4031,11 @@ msgid "When you click continue, you will be prompted to add the first available 
 msgstr ""
 
 #: apps/web/src/app/(profile)/p/[url]/page.tsx:139
-msgid "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
+#~ msgid "While waiting for them to do so you can create your own Documenso account and get started with document signing right away."
+#~ msgstr ""
+
+#: apps/web/src/app/(profile)/p/[url]/page.tsx:139
+msgid "While waiting for them to do so you can create your own Onboard account and get started with document signing right away."
 msgstr ""
 
 #: apps/web/src/app/(dashboard)/documents/_action-items/resend-document.tsx:126
@@ -4290,7 +4317,11 @@ msgid "Your documents"
 msgstr ""
 
 #: apps/web/src/app/(unauthenticated)/verify-email/[token]/page.tsx:117
-msgid "Your email has been successfully confirmed! You can now use all features of Documenso."
+#~ msgid "Your email has been successfully confirmed! You can now use all features of Documenso."
+#~ msgstr ""
+
+#: apps/web/src/app/(unauthenticated)/verify-email/[token]/page.tsx:117
+msgid "Your email has been successfully confirmed! You can now use all features of Onboard."
 msgstr ""
 
 #: apps/web/src/app/(dashboard)/settings/teams/team-email-usage.tsx:62
